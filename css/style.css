@@ -84,6 +84,17 @@ h1 {
   font-size: 2em;
 }
 
+.side1 a {
+  color: white;
+  background-color: #ff5207;
+  border-radius: 8px;
+  padding: 0.8em 1.5em;
+}
+
+.imgside1 {
+  margin-bottom: 2em;
+}
+
 .sect2 {
   margin-top: 5em;
   margin-bottom: 5em;
