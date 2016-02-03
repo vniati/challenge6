@@ -1,0 +1,106 @@
+header {
+  background-image: url("/images/header.png");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 3em;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 4em;
+  color: white;
+}
+
+@media (min-width: 768px)
+.navbar-nav {
+    /* float: left; */
+    margin: 0;
+    float: none;
+}
+
+.navbar {
+  border: none;
+}
+
+.navi {
+  background-color: #68bceb;
+  text-align: center;
+}
+
+.nav-center ul {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-center ul li {
+  width: 20%;
+}
+
+.navbar-default .navbar-nav li a {
+  color: white;
+}
+
+.imgheader {
+  border: 2em solid white;
+  margin: auto;
+}
+
+.backsection {
+  background-image: url("/images/fond.png");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 3em;
+}
+
+.secp {
+  padding-bottom: 1em;
+}
+
+.section1 a {
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff5207;
+  padding: 0.6em 1.5em;
+}
+
+.img2 {
+  background-image: url("/images/fond-article.png");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 3em;
+}
+
+.img2 {
+  padding-bottom: 5em;
+}
+
+.img2 img {
+  margin-right: 2em;
+}
+
+.sect2 h2 {
+  font-size: 2em;
+}
+
+.sect2 {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.list2 li {
+  list-style-image: url("../images/fleche.png");
+}
+
+.list2 li a {
+  color: #525252;
+}
+
+.list3 li a {
+  color: #525252;
+}
+
+.list3 li {
+  list-style-image: url("../images/fleche.png");
+}
