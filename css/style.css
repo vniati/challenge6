@@ -85,10 +85,24 @@ h1 {
 }
 
 .side1 a {
+  text-decoration: none;
   color: white;
   background-color: #ff5207;
   border-radius: 8px;
   padding: 0.8em 1.5em;
+}
+
+.buttonsect3 {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5207;
+  border-radius: 8px;
+  padding: 0.8em 1.5em;
+}
+
+.buttonsect3:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .imgside1 {
@@ -102,6 +116,7 @@ h1 {
 
 .list2 li {
   list-style-image: url("../images/fleche.png");
+  margin-bottom: 20px;
 }
 
 .list2 li a {
@@ -112,6 +127,71 @@ h1 {
   color: #525252;
 }
 
+.titleside3 {
+  margin-bottom: 35px;
+}
+
+.sidebar1 p {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.sidebar1 h3 {
+  margin-bottom: 30px;
+}
+
 .list3 li {
   list-style-image: url("../images/fleche.png");
+  margin-bottom: 20px;
+}
+
+.lastsection {
+  background-image: url("/images/footer.png");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 3em;
+}
+
+.backcitation {
+  background-image: url("/images/citation.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 3em;
+}
+
+.lastlink {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5207;
+  border-radius: 8px;
+  padding: 0.8em 1.5em;
+}
+
+.lastlink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.thirdlast img {
+  margin-bottom: 10px;
+}
+
+.secondlast p, h3 {
+  margin-bottom: 30px;
+}
+
+.fourlast p, h3 {
+  margin-bottom: 30px;
+}
+
+.margethird {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-image: url("/images/bas-de-page.png");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 1em;
+  text-align: center;
 }
