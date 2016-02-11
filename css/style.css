@@ -5,11 +5,23 @@ header {
   padding: 3em;
 }
 
+body {
+  font-family: 'Arial';
+}
+
 h1 {
   text-align: center;
   font-family: 'Oswald';
   font-size: 4em;
   color: white;
+}
+
+.img2 h2 {
+  font-size: 1em;
+}
+
+h2, h3 {
+  font-family: 'Oswald';
 }
 
 @media (min-width: 768px)
@@ -24,8 +36,9 @@ h1 {
 }
 
 .navi {
-  background-color: #68bceb;
+  background: linear-gradient( #6EC6F4, #529DD4);;
   text-align: center;
+  box-shadow: #FFFFFF;
 }
 
 .nav-center ul {
@@ -39,6 +52,7 @@ h1 {
 
 .navbar-default .navbar-nav li a {
   color: white;
+  font-family: 'Abel';
 }
 
 .imgheader {
@@ -53,15 +67,29 @@ h1 {
   padding: 3em;
 }
 
+.secp2 {
+  color: #575757;
+}
+
 .secp {
   padding-bottom: 1em;
+  color: #9B9B9B;
+}
+
+.parasec2 {
+  color: #9B9B9B;
+}
+
+.largpara {
+  color: black;
+  opacity: 0.6;
 }
 
 .section1 a {
   text-decoration: none;
   color: white;
   border-radius: 5px;
-  background-color: #ff5207;
+  background: linear-gradient( #FF5207, #FF3000);
   padding: 0.6em 1.5em;
 }
 
@@ -81,13 +109,13 @@ h1 {
 }
 
 .sect2 h2 {
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .side1 a {
   text-decoration: none;
   color: white;
-  background-color: #ff5207;
+  background: linear-gradient( #FF5207, #FF3000);
   border-radius: 8px;
   padding: 0.8em 1.5em;
 }
@@ -95,7 +123,7 @@ h1 {
 .buttonsect3 {
   text-decoration: none;
   color: white;
-  background-color: #ff5207;
+  background: linear-gradient( #FF5207, #FF3000);
   border-radius: 8px;
   padding: 0.8em 1.5em;
 }
@@ -105,8 +133,18 @@ h1 {
   text-decoration: none;
 }
 
+.margpara {
+  margin-bottom: 25px;
+  line-height: 1.7em;
+}
+
 .imgside1 {
   margin-bottom: 2em;
+}
+
+.piccita {
+  text-align: center;
+  margin-left: 50%;
 }
 
 .sect2 {
@@ -117,6 +155,11 @@ h1 {
 .list2 li {
   list-style-image: url("../images/fleche.png");
   margin-bottom: 20px;
+}
+
+.margpara a {
+  color: #FD3300;
+  text-decoration: underline;
 }
 
 .list2 li a {
@@ -152,6 +195,10 @@ h1 {
   padding: 3em;
 }
 
+.lastsection h3 {
+  font-size: 1.7em;
+}
+
 .backcitation {
   background-image: url("/images/citation.jpg");
   background-size: auto;
@@ -159,10 +206,20 @@ h1 {
   padding: 3em;
 }
 
+.backcitation p {
+  color: black;
+  opacity: 0.4;
+}
+
+.plast {
+  color: black;
+  opacity: 0.4;
+}
+
 .lastlink {
   text-decoration: none;
   color: white;
-  background-color: #ff5207;
+  background: linear-gradient( #FF5207, #FF3000);
   border-radius: 8px;
   padding: 0.8em 1.5em;
 }
